@@ -77,7 +77,7 @@ function ready(datapoints) {
       svg
         .append('text')
         .text(d.key)
-        .attr('font-size', 32)
+        .attr('font-size', 30)
         .attr('x', width / 2)
         .attr('y', 0)
         .attr('text-anchor', 'middle')
