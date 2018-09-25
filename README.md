@@ -1,1 +1,3 @@
-# d3-lines-2
+- D3 lines with labels
+- multiple charts
+- `g` element
