@@ -22,10 +22,9 @@ d3.csv(require('./all-temps.csv'))
   })
 
 function ready(datapoints) {
-	svg.append('circle')
-	.attr('r',100)
-	.attr('cx',0)
-	.attr('cy',0)
-
-
+  svg
+    .append('circle')
+    .attr('r', 100)
+    .attr('cx', 0)
+    .attr('cy', 0)
 }
